@@ -3,5 +3,6 @@ defmodule TypeoniaWeb.PageController do
 
   def home(conn, _params) do
     render(conn, :home)
+    # live_render(conn, TypeoniaWeb.HomeLive)
   end
 end
